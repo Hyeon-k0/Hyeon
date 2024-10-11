@@ -1,0 +1,29 @@
+# OpenSource Lab6
+# 202434583 강현규
+
+## 1. Version Control and Collaboration
+Version control helps multiple people work together on a project by keeping track of changes over time. It manages the history of the project, making it easier to collaborate by combining contributions from different people.
+
+## 2. Changes vs Snapshots
+A change is any update or modification made to files, like editing text or adding new files. A snapshot is a complete picture of the project at a specific point in time. Instead of saving every single change, Git captures snapshots, which show the whole state of the project at that moment.
+
+## 3. Types of Version Control
+- **Local Version Control**: Keeps track of changes on one computer, good for solo projects but not for teamwork.
+- **Centralized Version Control**: One central server stores the project, and all users connect to it to upload or download changes.
+- **Distributed Version Control**: Every user has their own full copy of the project, including the whole history. Git uses this type, allowing people to work offline and sync later.
+
+## 4. Installing Git
+You can install Git by downloading it from the official website or using a package manager that fits your system.
+
+## 5. Git Configuration
+After installing Git, you need to set up your name and email, as these will be attached to your commits. This way, everyone knows who made specific changes. You configure your name and email globally, so it applies to all your work.
+
+## 6. Git Commands
+Here are some of the most important Git commands:
+
+- **git init**: Starts a new Git repository in your current folder, setting up files to track your project’s history.
+- **git add**: Prepares changes to be saved, marking the updated files so they’ll be included in the next commit.
+- **git commit**: Saves your changes to the project, along with a message that describes what you did.
+- **git status**: Shows you the current state of your project, like which files have been changed and which ones are ready to be committed.
+- **git log**: Displays the history of commits, including details like the messages and who made each commit.
+- **git push**: Sends your changes to a remote repository, sharing your work with others.
